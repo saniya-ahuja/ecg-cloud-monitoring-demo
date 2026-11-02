@@ -7,7 +7,8 @@ displayed on a live dashboard, logged, and checked for **transmission delay** an
 > Built to understand the core ideas behind real-time remote patient monitoring.
 > The ECG is simulated (NeuroKit2); no real patient data is used.
 
-![Live dashboard](images/dashboard.png)
+<img width="1012" height="355" alt="ECG" src="https://github.com/user-attachments/assets/57a7eb26-2d61-42f1-b9d8-66563dd86ddb" />
+
 
 ## Pipeline
 
@@ -44,7 +45,8 @@ Simulated ECG (250 Hz)  →  Device / sender  →  MQTT broker  →  Cloud / rec
 | 95th percentile latency | 113 ms |
 | Heart rate shown | 76 bpm (simulated: 72 bpm) |
 
-![Latency histogram](images/latency.png)
+<img width="549" height="316" alt="ECG_1" src="https://github.com/user-attachments/assets/7c7f39bd-c431-4c15-a519-f2ef7b81d188" />
+
 
 **Observations**
 - Most packets arrived in ~90–95 ms; a small tail reached ~240 ms (network jitter).
